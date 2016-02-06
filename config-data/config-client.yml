@@ -1,6 +1,6 @@
 configclient:
-	specific:
-		property : This property is only exposed for applications named config-client
-		favorite :
-			jdk : 8
-			
+  specific:
+    property : This property is only exposed for applications named config-client
+        favorite :
+            jdk : 8
+

@@ -4,4 +4,5 @@ spring:
       server:
         git:
           uri: https://github.com/witspirit/spring-config-experiments.git
-          basedir: config-data
+          search-paths: config-data/
+          basedir: target/config-clone

@@ -1,7 +1,3 @@
-# Special ignores
-# Local clone of the config-data repository
-config-server/config-data/
-
 ### Eclipse template
 *.pydevproject
 .metadata

@@ -1,5 +1,5 @@
 common:
-	property: Spring Config Server Expirementation
+  property: Spring Config Server Expirementation
 another:
-	common:
-		property: Just a shared value
+  common:
+    property: Just a shared value
