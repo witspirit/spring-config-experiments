@@ -6,3 +6,7 @@ spring:
           uri: https://github.com/witspirit/spring-config-experiments.git
           search-paths: config-data/
           basedir: target/config-clone
+          repos:
+            config-client:
+              pattern: config-client
+              uri: https://github.com/witspirit/config-client-config-repo.git
