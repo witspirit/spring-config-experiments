@@ -10,3 +10,8 @@ spring:
             config-client:
               pattern: config-client
               uri: https://github.com/witspirit/config-client-config-repo.git
+
+
+# A non default port to differentiate for the normal 8888 config server port and the 8080 boot app port
+server:
+  port: 8088
