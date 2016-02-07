@@ -11,16 +11,16 @@ import org.springframework.stereotype.Component;
 @Component
 public class ConfigValues {
 
-    @Value("${application.title}")
+    @Value("${application.title:UNSET}")
     private String title;
 
-    @Value("${environment}")
+    @Value("${environment:UNSET}")
     private String environment;
 
     @Value("${common.property:UNSET}")
     private String commonProperty;
 
-    @Value("${deployment.target:UNSPECIFIED}")
+    @Value("${deployment.target:UNSET}")
     private String deploymentTarget;
 
     public String getTitle() {
